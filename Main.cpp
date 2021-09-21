@@ -272,6 +272,7 @@ int main()
 			break;
 		}
 	} while (key != 0);
+	delete [] arr;
 }
 
 int charToNum(char str) 
